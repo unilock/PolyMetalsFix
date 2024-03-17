@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "polytrafix",
+	"version": "${version}",
+	"name": "PolytraFix",
+	"description": "CHANGE ME",
+	"authors": [
+		"unilock"
+	],
+	"contact": {
+		"sources": "https://github.com/unilock/PolytraFix"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"polymc": [
+			"cc.unilock.polytrafix.PolytraFix"
+		]
+	},
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": ">=1.20.4",
+		"fabric-api": "*",
+		"mythicmetals": "*"
+	}
+}
