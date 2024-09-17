@@ -1,3 +1,3 @@
-# PolytraFix
+# PolyMetalsFix
 
-CHANGE ME
+Fixes for Mythic Metals running server-side

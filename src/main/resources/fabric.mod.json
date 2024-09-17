@@ -1,26 +1,29 @@
 {
 	"schemaVersion": 1,
-	"id": "polytrafix",
+	"id": "polymetalsfix",
 	"version": "${version}",
-	"name": "PolytraFix",
-	"description": "CHANGE ME",
+	"name": "PolyMetalsFix",
+	"description": "Fixes for Mythic Metals running server-side",
 	"authors": [
 		"unilock"
 	],
 	"contact": {
-		"sources": "https://github.com/unilock/PolytraFix"
+		"sources": "https://github.com/unilock/PolyMetalsFix"
 	},
 	"license": "MIT",
 	"environment": "*",
 	"entrypoints": {
 		"polymc": [
-			"cc.unilock.polytrafix.PolytraFix"
+			"cc.unilock.polymetalsfix.PolyMetalsFix"
 		]
 	},
+	"mixins": [
+		"polymetalsfix.mixins.json"
+	],
 	"depends": {
 		"fabricloader": "*",
-		"minecraft": ">=1.20.4",
+		"minecraft": ">=1.21",
 		"fabric-api": "*",
-		"mythicmetals": "*"
+		"mythicmetals": ">=0.20.0"
 	}
 }
